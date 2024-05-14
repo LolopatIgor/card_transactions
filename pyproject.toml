@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "venv"
+version = "venv"
+description = "card_transaction_program"
+authors = ["Igor Gavrilchik <Lolopat1994@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
