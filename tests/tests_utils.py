@@ -89,6 +89,6 @@ class TestFunctions(unittest.TestCase):
     def test_blur_account(self):
         # Проверка функции замены определенных символов в номерах счетов
         account_number = "Счет 1234567890123456"
-        self.assertEqual(blur_account(account_number), "Счет ************3456")
+        self.assertEqual(blur_account(account_number), "Счет **3456")
 
 
