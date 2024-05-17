@@ -108,8 +108,8 @@ def blur_account(account_data: str):
 
     for i in range(len(second_part)):
         if i in range(len(second_part) - 4):  # Индексы, которые нужно заменить на '*'
-            second_part_coded += "*"
+            pass
         else:
             second_part_coded += second_part[i]
 
-    return f"{first_part}{second_part_coded}"
+    return f"{first_part}**{second_part_coded}"
